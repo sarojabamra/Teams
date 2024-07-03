@@ -10,8 +10,6 @@ const Poll = ({ pollId, sender }) => {
   const [fetchAgain, setFetchAgain] = useState(false);
 
   const handleVote = async (option) => {
-    console.log("Voting for option:", option._id);
-    console.log("Poll ID:", pollId);
     try {
       const response = await API.votePoll({
         optionId: option._id,
@@ -25,8 +23,6 @@ const Poll = ({ pollId, sender }) => {
       }
     } catch (error) {}
   };
-
-  console.log("Poll id: ", pollId);
 
   const getPollById = async () => {
     try {
@@ -46,8 +42,6 @@ const Poll = ({ pollId, sender }) => {
   useEffect(() => {
     getPollById();
   }, [fetchAgain, pollId]);
-
-  console.log("Poll details: ", sender);
 
   return (
     <div
