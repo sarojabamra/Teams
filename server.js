@@ -53,7 +53,7 @@ const server = app.listen(PORT, () =>
 const io = new SocketServer(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "",
+    origin: process.env.FRONTEND_URL || "http://localhost:3000",
   },
 });
 
