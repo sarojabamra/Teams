@@ -1,0 +1,215 @@
+.modal-overlay2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.inactive {
+  background-color: #d2d4da !important;
+}
+
+.modal-content2 {
+  background: transparent !important;
+}
+
+.close-icon2 {
+  margin-top: -37px;
+  margin-right: -37px;
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.close-icon2:hover {
+  background-color: #f3f4f8;
+}
+
+.modal {
+  background: white;
+  padding: 40px;
+  border-radius: 5px;
+  width: 400px;
+  max-width: 100%;
+}
+
+.modal-content2 .imgdiv {
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+}
+
+.modal-content2 .error {
+  margin-top: 10px !important;
+
+  text-align: center;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-content {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.close-icon {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.close-icon:hover {
+  background-color: #f3f4f8;
+}
+
+.modal-content2 .btns {
+  width: 100%;
+  gap: 5px !important;
+}
+
+.modal-content2 .btns button {
+  height: 45px;
+  padding: 13px 62.5px !important;
+}
+
+.assign-container .add-task {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.assign-container .input-field {
+  background-color: #f3f4f8;
+  display: flex;
+  gap: 5px;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.assign-container input {
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+  border: none;
+}
+
+.assign-container .intro {
+  margin-top: 15px !important;
+  margin-bottom: 10px !important;
+  color: #777896;
+}
+
+.assign-container .add-btn {
+  background-color: #101223;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 2px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.assign-container .task-item {
+  background-color: #f3f4f8;
+  margin-top: 5px;
+  padding: 18px 15px;
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.assign-container .task-item h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.assign-container .task-item p {
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #777986;
+}
+
+.assign-container .completed-task-item h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.assign-container .completed-task-item p {
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #777986;
+}
+
+.assign-container .task-list {
+  margin-top: 10px;
+  max-height: 275px;
+  overflow-y: scroll;
+}
+
+.assign-container .task-list::-webkit-scrollbar {
+  display: none;
+}
+
+.assign-container .col2 {
+  cursor: pointer;
+  display: flex;
+  gap: 2px;
+  margin-right: 5px;
+}
+
+.assign-container .iconn {
+  color: #d2d4da;
+}
+
+.assign-container .iconn:hover {
+  color: #101223;
+}
+
+.assign-container .col1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.assign-container .iconn {
+  font-size: 24px;
+}
+
+.assign-container .imp {
+  font-size: 22px;
+}
+
+.assign-container .icon2 {
+  font-size: 22px;
+  color: #101223;
+}

@@ -1,0 +1,100 @@
+.navbar-container {
+  background-color: #101223;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25px;
+  position: fixed; /* Added */
+  top: 0; /* Added */
+  width: 100%; /* Added */
+  z-index: 100 !important;
+  box-sizing: border-box;
+}
+
+.notification-icon {
+  color: #fff;
+  font-size: 22px;
+  margin-top: -4px;
+}
+
+.home-icon {
+  color: #fff;
+  font-size: 22px;
+}
+
+.user-icon {
+  color: #fff;
+  font-size: 22px;
+  margin-top: 0px;
+}
+
+.user-search-icon {
+  font-size: 20px;
+}
+
+.logout-btn {
+  padding: 5px 30px;
+  border: none;
+  outline: none;
+
+  margin-top: -4px;
+  font-weight: 600;
+  border-radius: 90px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 4px;
+}
+
+.vr {
+  width: 1.2px; /* Set the width of the line */
+  height: 30px; /* Full height of the parent container */
+  background-color: #777986; /* Color of the line */
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 4px;
+  align-self: stretch;
+}
+
+.logout-btn p {
+  color: #101223;
+  font-size: 15px;
+}
+
+.logout-icon {
+  font-size: 20px;
+  color: #101223;
+}
+
+.active-icon {
+  background-color: #404252;
+}
+
+.right {
+  display: flex;
+  align-items: center !important;
+  gap: 4px;
+  justify-content: center;
+}
+
+.left input {
+  border: none;
+  background-color: transparent;
+  border-radius: 2px;
+  width: 100%;
+  outline: none;
+}
+
+.left .input-container {
+  display: flex;
+  height: 8px;
+  border-radius: 90px;
+  gap: 5px;
+  align-items: center;
+  width: 325px;
+}
+
+.left {
+  margin-left: 42px;
+}
